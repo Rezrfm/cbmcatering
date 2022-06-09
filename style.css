@@ -101,6 +101,10 @@ footer img {
   font-size: 19px;
 }
 
+.about p {
+  text-align: justify;
+}
+
 .about h3 {
   padding-top: 0.2rem;
   font-family: "Book Antiqua";
@@ -113,6 +117,10 @@ footer img {
 .crsl-klien {
   text-align: center;
   font-family: "Book Antiqua";
+}
+
+.crsl-klien img {
+  margin-right: 2rem;
 }
 
 .crsl-klien h3 {
