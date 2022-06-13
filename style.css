@@ -27,10 +27,6 @@ body {
   background-color: #fff1f1;
 }
 
-.navbar-nav {
-  padding-right: 5rem;
-}
-
 .navbar-nav p {
   font-family: "Adobe Caslon Pro Semibold";
   padding-right: 2.1rem;
@@ -80,15 +76,16 @@ footer img {
 
 /* index.html */
 /* banner */
-.brand-banner {
-  width: 1280px;
-  height: 720px;
+.banner img {
+  width: 430px;
+  height: 400px;
 }
 
-.banner {
-  background-color: #fff1f1;
+.banner h1 {
+  font-family: "Adobe Caslon Pro Bold";
+  text-align: start;
+  color: #f20c0c;
 }
-
 /* akhir banner */
 
 /* about */
@@ -96,8 +93,8 @@ footer img {
   background-color: #fff2f2;
   text-align: center;
   font-family: "Book Antiqua";
-  padding-top: 3rem;
   padding-bottom: 4rem;
+  padding-top: 1rem;
   font-size: 19px;
 }
 
@@ -107,6 +104,7 @@ footer img {
 
 .about h3 {
   padding-top: 0.2rem;
+  padding-bottom: 1rem;
   font-family: "Book Antiqua";
   font-weight: bold;
   text-align: center;
@@ -120,11 +118,12 @@ footer img {
 }
 
 .crsl-klien img {
-  margin-right: 2rem;
+  margin-right: 2.7rem;
 }
 
 .crsl-klien h3 {
   font-weight: bold;
+  padding-bottom: 1rem;
 }
 /* akhir carousel klien */
 
@@ -150,82 +149,80 @@ footer img {
 /* menu.html */
 .menu-nasi {
   text-align: center;
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
   font-family: "Book Antiqua";
-  justify-content: center;
 }
 
-.menu-nasi h3 {
+.menu-nasi h1 {
   font-weight: bold;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
 }
 
 .menu-nasi img {
-  display: flex;
-  width: 171px;
+  width: 600px;
   height: 300px;
+  border-radius: 10%;
 }
 
-.menu-nasi h5 {
+.menu-nasi h2 {
   font-weight: bold;
   text-align: start;
-  padding-left: 3rem;
 }
 
 .menu-nasi p {
   margin: 0;
   padding: 0;
   text-align: start;
-  padding-left: 3rem;
+  font-size: 20px;
 }
-
-.menu-nasi td {
-  padding-bottom: 3rem;
-}
-
-.menu-nasi table {
-  margin-left: 15rem;
-  margin-right: auto;
-}
-
 /* akhir menu.html */
 
 /* klien.html */
 
 .klien-kami {
   background-color: #fff1f1;
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   font-family: "Book Antiqua";
 }
 
-.klien-kami h3 {
-  padding-bottom: 6rem;
+.klien-kami h1 {
+  padding-bottom: 3rem;
+  font-weight: bold;
 }
 
-.klien-kami h5 {
+.klien-kami h2 {
   text-align: start;
   font-weight: bold;
-  padding-left: 3rem;
+}
+
+.klien img {
+  width: 400px;
+  height: 250px;
+}
+
+.klien {
+  padding-bottom: 2rem;
+}
+
+.klienp {
+  padding-bottom: 2rem;
+}
+
+.klienp img {
+  width: 400px;
+  height: 200px;
 }
 
 .klien-kami p {
   margin: 0;
   padding: 0;
   text-align: start;
-  padding-left: 3rem;
+  font-size: 20px;
 }
-
-.klien-kami table {
-  margin-left: 15rem;
-  margin-right: auto;
-}
-
-.klien-kami td {
-  padding-bottom: 3rem;
-}
-
 /* akhir klien.html */
 
 /* kontak.html */
