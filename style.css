@@ -95,14 +95,14 @@ footer img {
   font-family: "Book Antiqua";
   padding-bottom: 4rem;
   padding-top: 1rem;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .about p {
   text-align: justify;
 }
 
-.about h3 {
+.about h2 {
   padding-top: 0.2rem;
   padding-bottom: 1rem;
   font-family: "Book Antiqua";
@@ -115,36 +115,20 @@ footer img {
 .crsl-klien {
   text-align: center;
   font-family: "Book Antiqua";
+  padding-bottom: 2rem;
 }
 
 .crsl-klien img {
   margin-right: 2.7rem;
 }
 
-.crsl-klien h3 {
+.crsl-klien h2 {
   font-weight: bold;
   padding-bottom: 1rem;
 }
 /* akhir carousel klien */
 
 /* akhir index.html */
-
-/* klien.html */
-.klien-kami {
-  text-align: center;
-  background-color: #fff3f3;
-}
-
-.klien-kami h3 {
-  font-family: "Book Antiqua";
-  font-weight: bold;
-  padding-bottom: 1rem;
-}
-
-.carousel {
-  padding-bottom: 5rem;
-}
-/* akhir klien.html */
 
 /* menu.html */
 .menu-nasi {
@@ -154,9 +138,9 @@ footer img {
   font-family: "Book Antiqua";
 }
 
-.menu-nasi h1 {
+.menu-nasi h3 {
   font-weight: bold;
-  padding-bottom: 3rem;
+  text-align: start;
 }
 
 .menu-nasi img {
@@ -167,7 +151,8 @@ footer img {
 
 .menu-nasi h2 {
   font-weight: bold;
-  text-align: start;
+  text-align: center;
+  padding-bottom: 3rem;
 }
 
 .menu-nasi p {
@@ -187,41 +172,36 @@ footer img {
   padding-left: 5rem;
   padding-right: 5rem;
   font-family: "Book Antiqua";
-}
-
-.klien-kami h1 {
-  padding-bottom: 3rem;
-  font-weight: bold;
+  justify-content: center;
+  text-align: center;
 }
 
 .klien-kami h2 {
-  text-align: start;
   font-weight: bold;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.klien-kami h5 {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1rem;
 }
 
 .klien img {
-  width: 400px;
-  height: 250px;
+  width: 300px;
+  height: 170px;
 }
 
 .klien {
   padding-bottom: 2rem;
 }
 
-.klienp {
-  padding-bottom: 2rem;
-}
-
-.klienp img {
-  width: 400px;
-  height: 200px;
-}
-
 .klien-kami p {
   margin: 0;
   padding: 0;
-  text-align: start;
-  font-size: 20px;
+  text-align: center;
+  font-size: 18px;
 }
 /* akhir klien.html */
 
@@ -232,6 +212,17 @@ footer img {
   text-align: center;
   padding-top: 6rem;
   padding-bottom: 5rem;
+}
+
+.telepon img {
+  width: 70px;
+  height: 70px;
+}
+
+.telepon h5 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 .kontak h3 {
