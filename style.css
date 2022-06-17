@@ -18,6 +18,135 @@
   src: url(font/Book-Antiqua/Book\ Antiqua\ Font.ttf);
 }
 
+@media only screen and (max-width: 777px) {
+  .navbar img {
+    width: 60px;
+    height: 60px;
+  }
+
+  footer h5 {
+    font-size: 15px !important;
+  }
+
+  footer p {
+    font-size: 13px;
+  }
+
+  footer img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .banner h1 {
+    font-family: "Adobe Caslon Pro Bold";
+    text-align: start;
+    color: #f20c0c;
+    font-size: 25px;
+  }
+
+  .banner img {
+    width: 280px;
+    height: 250px;
+  }
+
+  .about h2 {
+    font-size: 25px;
+  }
+
+  .about p {
+    font-size: 12px;
+  }
+
+  .about img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .crsl-klien img {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.1rem;
+  }
+
+  .crsl-klien h2 {
+    font-size: 25px;
+  }
+
+  .menu-nasi img {
+    width: 300px !important;
+    height: 150px !important;
+    display: flex;
+  }
+
+  .menu-nasi h3 {
+    font-size: 20px;
+  }
+
+  .menu-nasi p {
+    font-size: 12px !important;
+  }
+
+  .klien-kami img {
+    width: 150px !important;
+    height: 100px !important;
+  }
+
+  .klien-kami h5 {
+    font-size: 14px;
+  }
+
+  .klien-kami p {
+    font-size: 13px !important;
+  }
+
+  .kontak h5 {
+    font-size: 15px;
+  }
+
+  .kontak p {
+    font-size: 13px;
+  }
+
+  .kontak img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .kontak-button {
+    font-size: 13px;
+  }
+
+  .lokasi-button {
+    font-size: 13px;
+  }
+
+  .lokasi p {
+    font-size: 13px;
+  }
+
+  .lokasi iframe {
+    width: 200px;
+    height: 250px;
+  }
+
+  .profilnav a {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    font-size: 14px !important;
+  }
+
+  .carousel-profil h3 {
+    font-size: 20px !important;
+  }
+
+  .carousel-profil p {
+    font-size: 13px;
+  }
+
+  .hubungi p {
+    font-size: 13px !important;
+  }
+}
+
 body {
   background-color: #fff1f1;
 }
@@ -76,11 +205,6 @@ footer img {
 
 /* index.html */
 /* banner */
-.banner img {
-  width: 430px;
-  height: 400px;
-}
-
 .banner h1 {
   font-family: "Adobe Caslon Pro Bold";
   text-align: start;
@@ -109,6 +233,11 @@ footer img {
   font-weight: bold;
   text-align: center;
 }
+
+.about img {
+  width: 100px;
+  height: 100px;
+}
 /* akhir about */
 
 /* carousel klien */
@@ -119,7 +248,7 @@ footer img {
 }
 
 .crsl-klien img {
-  margin-right: 2.7rem;
+  margin-right: 1rem;
 }
 
 .crsl-klien h2 {
@@ -146,7 +275,7 @@ footer img {
 .menu-nasi img {
   width: 600px;
   height: 300px;
-  border-radius: 10%;
+  display: block;
 }
 
 .menu-nasi h2 {
@@ -214,7 +343,7 @@ footer img {
 
 .kontak h3 {
   font-weight: bold;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .kontak p {
@@ -257,7 +386,7 @@ footer img {
 .profilnav {
   font-family: "Adobe Caslon Pro Regular";
   text-align: center;
-  padding-top: 6rem;
+  padding-top: 3rem;
 }
 
 .profilnav a {
@@ -265,10 +394,6 @@ footer img {
   padding-right: 1.5rem;
   color: black;
   font-size: 18px;
-}
-
-.profilogo {
-  margin-top: 10rem;
 }
 
 .profil-pt {
@@ -282,7 +407,7 @@ footer img {
 .carousel-profil h3 {
   font-family: "Book Antiqua";
   font-weight: bold;
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
 }
 .carousel-profil p {
@@ -306,6 +431,7 @@ footer img {
 }
 
 .hubungi {
-  padding-top: 5rem;
+  padding-top: 3rem;
+  text-align: center;
 }
 /* akhir tentang.html */
