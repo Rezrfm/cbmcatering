@@ -237,19 +237,20 @@ footer img {
   padding-top: 3rem;
 }
 .lokasi p {
-  text-align: start;
+  text-align: center;
 }
 
 .lokasi h5 {
-  text-align: start;
+  text-align: center;
 }
 
 .lokasi-button {
   background-color: rgb(252, 152, 152);
   color: black;
-  float: left;
+  float: center;
   margin-top: 13px;
 }
+
 /* akhir kontak.html */
 
 /* tentang.html */
