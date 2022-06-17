@@ -18,7 +18,7 @@
   src: url(font/Book-Antiqua/Book\ Antiqua\ Font.ttf);
 }
 
-@media only screen and (max-width: 777px) {
+@media only screen and (max-width: 576px) {
   .navbar img {
     width: 60px;
     height: 60px;
