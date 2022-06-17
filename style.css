@@ -169,8 +169,6 @@ footer img {
   background-color: #fff1f1;
   padding-top: 3rem;
   padding-bottom: 2rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
   font-family: "Book Antiqua";
   justify-content: center;
   text-align: center;
@@ -210,19 +208,8 @@ footer img {
 .kontak {
   font-family: "Book Antiqua";
   text-align: center;
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-bottom: 5rem;
-}
-
-.telepon img {
-  width: 70px;
-  height: 70px;
-}
-
-.telepon h5 {
-  padding: 0;
-  margin: 0;
-  text-align: center;
 }
 
 .kontak h3 {
@@ -233,41 +220,36 @@ footer img {
 .kontak p {
   margin: 0;
   padding: 0;
-  text-align: start;
+  text-align: center;
 }
 
 .kontak img {
-  margin-right: 2rem;
+  margin-left: 10px;
 }
-
-.kontak table {
-  margin-left: 20rem;
-  margin-right: auto;
-}
-
-.kontak td {
-  padding-bottom: 3rem;
-}
-
-.telp table {
-  margin-left: 0rem;
-}
-
-.telp th {
-  text-align: start;
-}
-
-.telp td {
-  padding-right: 0.7rem;
-  padding-bottom: 0rem;
-}
-
 .kontak-button {
   background-color: rgb(252, 152, 152);
   color: black;
-  float: left;
+  float: center;
+  margin-top: 10px;
 }
 
+.lokasi {
+  padding-top: 3rem;
+}
+.lokasi p {
+  text-align: start;
+}
+
+.lokasi h5 {
+  text-align: start;
+}
+
+.lokasi-button {
+  background-color: rgb(252, 152, 152);
+  color: black;
+  float: left;
+  margin-top: 13px;
+}
 /* akhir kontak.html */
 
 /* tentang.html */
@@ -285,9 +267,6 @@ footer img {
 }
 
 .profilogo {
-  display: flex;
-  float: right;
-  margin-right: 15rem;
   margin-top: 10rem;
 }
 
@@ -306,7 +285,7 @@ footer img {
   padding-bottom: 2rem;
 }
 .carousel-profil p {
-  text-align: start;
+  text-align: justify;
 }
 
 .vmnum {
