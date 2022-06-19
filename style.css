@@ -133,8 +133,8 @@
   }
 
   .profilnav a {
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
     font-size: 14px !important;
   }
 
