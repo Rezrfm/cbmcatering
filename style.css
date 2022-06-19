@@ -40,49 +40,53 @@
     font-family: "Adobe Caslon Pro Bold";
     text-align: start;
     color: #f20c0c;
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .banner img {
-    width: 280px;
-    height: 250px;
+    width: 180px;
+    height: 150px;
   }
 
   .about h2 {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .about p {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .about img {
-    width: 70px !important;
-    height: 70px !important;
+    width: 60px !important;
+    height: 60px !important;
   }
 
   .crsl-klien img {
-    width: 50px;
-    height: 50px;
-    margin-right: 0.1rem;
+    width: 32px;
+    height: 32px;
+    margin-right: 3.5px !important;
   }
 
   .crsl-klien h2 {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .menu-nasi img {
-    width: 300px !important;
-    height: 150px !important;
-    display: flex;
+    width: 150px !important;
+    height: 100px !important;
+  }
+
+  .menu-nasi h1 {
+    font-size: 18px;
   }
 
   .menu-nasi h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .menu-nasi p {
     font-size: 12px !important;
+    text-align: justify !important;
   }
 
   .klien-kami img {
@@ -103,7 +107,7 @@
   }
 
   .kontak p {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .kontak img {
@@ -124,8 +128,8 @@
   }
 
   .lokasi iframe {
-    width: 200px;
-    height: 250px;
+    width: 140px;
+    height: 200px;
   }
 
   .profilnav a {
@@ -144,6 +148,10 @@
 
   .hubungi p {
     font-size: 13px !important;
+  }
+
+  .profil-bt {
+    font-size: 15px !important;
   }
 }
 
@@ -261,21 +269,12 @@ footer img {
 
 /* menu.html */
 .menu-nasi {
-  text-align: center;
+  background-color: #fff1f1;
   padding-top: 3rem;
   padding-bottom: 2rem;
   font-family: "Book Antiqua";
-}
-
-.menu-nasi h3 {
-  font-weight: bold;
-  text-align: start;
-}
-
-.menu-nasi img {
-  width: 600px;
-  height: 300px;
-  display: block;
+  justify-content: center;
+  text-align: center;
 }
 
 .menu-nasi h2 {
@@ -284,11 +283,26 @@ footer img {
   padding-bottom: 3rem;
 }
 
+.menu-nasi h5 {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.menu img {
+  width: 300px;
+  height: 170px;
+}
+
+.menu {
+  padding-bottom: 2rem;
+}
+
 .menu-nasi p {
   margin: 0;
   padding: 0;
-  text-align: start;
-  font-size: 20px;
+  text-align: center;
+  font-size: 18px;
 }
 /* akhir menu.html */
 
@@ -362,6 +376,9 @@ footer img {
   margin-top: 10px;
 }
 
+.email p {
+  text-align: center;
+}
 .lokasi {
   padding-top: 3rem;
 }
@@ -407,7 +424,7 @@ footer img {
 .carousel-profil h3 {
   font-family: "Book Antiqua";
   font-weight: bold;
-  padding-top: 3rem;
+  padding-top: 1.3rem;
   padding-bottom: 2rem;
 }
 .carousel-profil p {
@@ -433,5 +450,9 @@ footer img {
 .hubungi {
   padding-top: 3rem;
   text-align: center;
+}
+
+.profil-bt {
+  font-size: 20px;
 }
 /* akhir tentang.html */
