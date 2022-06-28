@@ -19,6 +19,14 @@
 }
 
 @media only screen and (max-width: 576px) {
+  h2 {
+    padding-bottom: 1rem !important;
+  }
+
+  h3 {
+    padding-bottom: 1rem !important;
+  }
+
   .navbar img {
     width: 60px;
     height: 60px;
@@ -40,6 +48,12 @@
     width: 40px !important;
     height: 40px !important;
   }
+
+  .gm {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
   .banner h1 {
     font-family: "Adobe Caslon Pro Bold";
     text-align: start;
@@ -52,12 +66,20 @@
     height: 150px;
   }
 
+  .about {
+    padding-bottom: 2rem !important;
+  }
+
   .about h2 {
     font-size: 18px;
+    margin-bottom: 1rem !important;
+    padding-bottom: 0rem !important;
   }
 
   .about p {
     font-size: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .about img {
@@ -75,9 +97,17 @@
     font-size: 18px;
   }
 
+  .menu {
+    padding-bottom: 1.3rem !important;
+  }
+
+  .menu-nasi {
+    padding-top: 1.5rem !important;
+  }
+
   .menu-nasi img {
-    width: 150px !important;
-    height: 100px !important;
+    width: 250px !important;
+    height: 150px !important;
   }
 
   .menu-nasi h1 {
@@ -91,6 +121,11 @@
   .menu-nasi p {
     font-size: 12px !important;
     text-align: justify !important;
+    padding: 0rem 6rem !important;
+  }
+
+  .klien-kami {
+    padding-top: 1rem !important;
   }
 
   .klien-kami img {
@@ -106,6 +141,10 @@
     font-size: 13px !important;
   }
 
+  .kontak {
+    padding-top: 1rem !important;
+  }
+
   .kontak h5 {
     font-size: 15px;
   }
@@ -117,6 +156,10 @@
   .kontak img {
     width: 15px;
     height: 15px;
+  }
+
+  .email {
+    padding-top: 1.5rem;
   }
 
   .kontak-button {
@@ -132,10 +175,18 @@
   }
 
   .lokasi iframe {
-    width: 140px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    padding-top: 2rem;
   }
 
+  .kontak {
+    padding-bottom: 3rem !important;
+  }
+
+  .lokasi {
+    padding-top: 1.5rem !important;
+  }
   .profilnav a {
     padding-left: 3px !important;
     padding-right: 3px !important;
@@ -206,7 +257,12 @@ footer img {
   height: 49px;
 }
 
-.ig:hover {
+.gm {
+  width: 40px;
+  height: 40px;
+}
+
+.gm:hover {
   opacity: 0.7;
 }
 
@@ -373,6 +429,7 @@ footer img {
 .kontak img {
   margin-left: 10px;
 }
+
 .kontak-button {
   background-color: rgb(252, 152, 152);
   color: black;
@@ -383,9 +440,11 @@ footer img {
 .email p {
   text-align: center;
 }
+
 .lokasi {
   padding-top: 3rem;
 }
+
 .lokasi p {
   text-align: center;
 }
@@ -431,6 +490,7 @@ footer img {
   padding-top: 1.3rem;
   padding-bottom: 2rem;
 }
+
 .carousel-profil p {
   text-align: justify;
 }
