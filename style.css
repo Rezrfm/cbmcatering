@@ -187,6 +187,7 @@
   .lokasi {
     padding-top: 1.5rem !important;
   }
+
   .profilnav a {
     padding-left: 3px !important;
     padding-right: 3px !important;
@@ -492,6 +493,9 @@ footer img {
   padding-right: 0;
 }
 
+.profil ol {
+  font-size: 15px;
+}
 .profilcrsl {
   text-align: center;
 }
