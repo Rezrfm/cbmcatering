@@ -194,6 +194,10 @@
     font-size: 14px !important;
   }
 
+  .profil ol li {
+    font-size: 12px;
+  }
+
   .profilnav a:focus {
     text-decoration: underline;
   }
@@ -493,9 +497,6 @@ footer img {
   padding-right: 0;
 }
 
-.profil ol {
-  font-size: 15px;
-}
 .profilcrsl {
   text-align: center;
 }
