@@ -33,7 +33,7 @@
   }
 
   .navbar-nav p {
-    font-size: 15px !important;
+    font-size: 17px !important;
   }
 
   footer h5 {
@@ -41,7 +41,7 @@
   }
 
   footer p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   footer img {
@@ -71,13 +71,13 @@
   }
 
   .about h2 {
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 1rem !important;
     padding-bottom: 0rem !important;
   }
 
   .about p {
-    font-size: 10px;
+    font-size: 15px;
     padding-left: 3rem;
     padding-right: 3rem;
   }
@@ -88,13 +88,13 @@
   }
 
   .crsl-klien img {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 35px;
     margin-right: 3.5px !important;
   }
 
   .crsl-klien h2 {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .menu {
@@ -106,8 +106,8 @@
   }
 
   .menu-nasi img {
-    width: 250px !important;
-    height: 150px !important;
+    width: 350px !important;
+    height: 200px !important;
   }
 
   .menu-nasi h1 {
@@ -115,13 +115,13 @@
   }
 
   .menu-nasi h3 {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   .menu-nasi p {
-    font-size: 12px !important;
+    font-size: 15px !important;
     text-align: justify !important;
-    padding: 0rem 6rem !important;
+    padding: 0rem 4rem !important;
   }
 
   .klien-kami {
@@ -129,16 +129,16 @@
   }
 
   .klien-kami img {
-    width: 200px !important;
-    height: 140px !important;
+    width: 300px !important;
+    height: 200px !important;
   }
 
   .klien-kami h5 {
-    font-size: 14px;
+    font-size: 17px;
   }
 
   .klien-kami p {
-    font-size: 13px !important;
+    font-size: 15px !important;
   }
 
   .kontak {
@@ -146,11 +146,11 @@
   }
 
   .kontak h5 {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .kontak p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .kontak img {
@@ -163,19 +163,19 @@
   }
 
   .kontak-button {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .lokasi-button {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .lokasi p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .lokasi iframe {
-    width: 250px;
+    width: 280px;
     height: 250px;
     padding-top: 2rem;
   }
@@ -361,7 +361,7 @@ footer img {
 .menu-nasi p {
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: justify;
   font-size: 18px;
 }
 /* akhir menu.html */
@@ -465,15 +465,13 @@ footer img {
 /* tentang.html */
 .profilnav {
   font-family: "Adobe Caslon Pro Regular";
-  text-align: center;
-  padding-top: 3rem;
+  text-align: start;
+  padding-top: 1rem;
 }
 
 .profilnav a {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
   color: black;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .profil-pt {
@@ -512,10 +510,13 @@ footer img {
 }
 
 .hubungi {
-  padding-top: 3rem;
+  padding-top: 2rem;
   text-align: center;
 }
 
+.profil {
+  padding: 0rem 3rem;
+}
 .profil-bt {
   font-size: 20px;
 }
